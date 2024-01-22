@@ -7,6 +7,7 @@ Ademas aplica el patron Repository.
 Se incluye tambien un script llamado wait-for-it.sh para que primero se levante la base de datos y luego nuestra aplicacion.
 
 ## Cómo empezar
+Para clonar el proyecto debemos ejecutar el comando git clone https://github.com/TomasTaborda/ChallengeOriginBackend.git
 El proyecto esta dockerizado, para poder levantarlo debemos tener docker instalado y en ejecucion.
 
 1. Moverse a la carpeta ChallengeOrigin
