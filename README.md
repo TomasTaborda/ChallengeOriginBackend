@@ -10,7 +10,7 @@ Se incluye tambien un script llamado wait-for-it.sh para que primero se levante 
 Para clonar el proyecto debemos ejecutar el comando git clone https://github.com/TomasTaborda/ChallengeOriginBackend.git
 El proyecto esta dockerizado, para poder levantarlo debemos tener docker instalado y en ejecucion.
 
-1. Moverse a la carpeta ChallengeOrigin
+1. Moverse a la carpeta ChallengeOrigin con: cd ChallengeOrigin
 2. Ejecutar el comando docker-compose up.
 
 Eso levantara el backend en el puerto 8080 y la base de datos con docker.
