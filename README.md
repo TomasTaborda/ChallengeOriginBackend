@@ -24,4 +24,4 @@ que queramos para la prueba.
 Alli podemos ver datos como el pin y el saldo disponible.
 
 DER
-<span>![</span><span>DER</span><span>]</span><span>(</span><span>https://github.com/TomasTaborda/ChallengeOriginBackend/blob/main/DER.jpg</span><span>)</span>
+[![DER.jpg](https://i.postimg.cc/3NrMj6rs/DER.jpg)](https://postimg.cc/LYW02x1D)
