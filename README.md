@@ -22,3 +22,6 @@ https://localhost:8080/swagger/index.html
 En swagger podemos ejecutar el endpoint /api/Tarjeta/GetTarjetas para obtener la lista de tarjetas y elegir el numero de tarjeta
 que queramos para la prueba.
 Alli podemos ver datos como el pin y el saldo disponible.
+
+DER
+<span>![</span><span>DER</span><span>]</span><span>(</span><span>https://github.com/TomasTaborda/ChallengeOriginBackend/blob/main/DER.jpg</span><span>)</span>
