@@ -23,5 +23,7 @@ En swagger podemos ejecutar el endpoint /api/Tarjeta/GetTarjetas para obtener la
 que queramos para la prueba.
 Alli podemos ver datos como el pin y el saldo disponible.
 
-DER
+## Diagrama Entidad Relacion
+
+
 [![DER.jpg](https://i.postimg.cc/3NrMj6rs/DER.jpg)](https://postimg.cc/LYW02x1D)
