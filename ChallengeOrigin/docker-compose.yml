@@ -1,0 +1,21 @@
+﻿version: "3.9"
+services:
+ challengeorigin:
+    image: challengeorigin
+    container_name: challengeOrigin
+    ports:
+      - "8080:8080"
+    build:
+      context: ../
+      dockerfile: ChallengeOrigin/Dockerfile
+    depends_on:
+      - sql
+    command: ["./wait-for-it.sh", "sql:1433", "--", "dotnet", "ChallengeOrigin.dll"]
+ sql:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    container_name: sql_server2022
+    ports:
+      - "1433:1433" 
+    environment:
+      - ACCEPT_EULA=y
+      - SA_PASSWORD=pruebaChallenge123
